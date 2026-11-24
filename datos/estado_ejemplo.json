@@ -1,0 +1,89 @@
+{
+  "alumnos_inscritos": {
+    "3201001": "Ana López García",
+    "3201002": "Carlos Pérez Ruiz",
+    "3201003": "Sofía Martínez Díaz",
+    "3201004": "Luis Torres Vega"
+  },
+  "socios": [
+    {
+      "id_socio": "S1",
+      "nombre": "Ana López García",
+      "matricula": "3201001",
+      "membresia": {
+        "tipo": "estudiante",
+        "fecha_inicio": "2026-11-01T08:00:00",
+        "fecha_fin": "2026-12-01T08:00:00"
+      },
+      "faltas": [],
+      "bloqueado_hasta": null
+    },
+    {
+      "id_socio": "S2",
+      "nombre": "Carlos Pérez Ruiz",
+      "matricula": null,
+      "membresia": {
+        "tipo": "general",
+        "fecha_inicio": "2026-11-01T09:00:00",
+        "fecha_fin": "2026-12-01T09:00:00"
+      },
+      "faltas": [],
+      "bloqueado_hasta": null
+    },
+    {
+      "id_socio": "S3",
+      "nombre": "Sofía Martínez Díaz",
+      "matricula": null,
+      "membresia": {
+        "tipo": "premium",
+        "fecha_inicio": "2026-11-01T10:00:00",
+        "fecha_fin": "2026-12-01T10:00:00"
+      },
+      "faltas": [
+        "2026-11-05T10:00:00",
+        "2026-11-10T10:00:00"
+      ],
+      "bloqueado_hasta": null
+    }
+  ],
+  "clases": [
+    {
+      "id_clase": "C1",
+      "nombre": "Spinning",
+      "instructor": "Coach Luis",
+      "fecha_hora": "2026-11-17T10:00:00",
+      "cupo_maximo": 10,
+      "reservas": [
+        {
+          "id_socio": "S3",
+          "id_clase": "C1",
+          "fecha_reserva": "2026-11-16T09:00:00",
+          "estado": "activa"
+        }
+      ]
+    }
+  ],
+  "dentro_gimnasio": [],
+  "pases_visitantes": {},
+  "historial_accesos": [
+    {
+      "id_persona": "S1",
+      "es_visitante": false,
+      "area": "gimnasio",
+      "entrada": "2026-11-16T08:15:00",
+      "salida": "2026-11-16T09:45:00"
+    },
+    {
+      "id_persona": "S2",
+      "es_visitante": false,
+      "area": "gimnasio",
+      "entrada": "2026-11-16T09:00:00",
+      "salida": "2026-11-16T11:30:00"
+    }
+  ],
+  "pagos": [
+    {"tipo": "estudiante", "monto": 300.0, "fecha": "2026-11-01T08:00:00"},
+    {"tipo": "general", "monto": 700.0, "fecha": "2026-11-01T09:00:00"},
+    {"tipo": "premium", "monto": 1100.0, "fecha": "2026-11-01T10:00:00"}
+  ]
+}
