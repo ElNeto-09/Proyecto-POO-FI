@@ -15,8 +15,8 @@ Proyecto final de Programación Orientada a Objetos (Tema 4). Es un sistema de c
 ## Instalación
 1. Clona el repositorio y entra a la carpeta del proyecto:
    ```bash
-   git clone [https://github.com/TU-USUARIO/Proyecto-POO.git](https://github.com/TU-USUARIO/Proyecto-POO.git)
-   cd Proyecto-POO
+   git clone https://github.com/ElNeto-09/Proyecto-POO-FI.git
+   cd Proyecto-POO-FI
    ```
 2. Confirma que tienes Python instalado:
    ```bash
